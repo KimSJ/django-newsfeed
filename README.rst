@@ -149,10 +149,12 @@ you can override these template to change the styles:
 The top level is a **newsletter**. Newsletters have an associated *subject* and *issue*.
 Apart from adding a new one or editing an existing one, possible actions are to
 "send" or "delete". Sending is what triggers an email, and will result in the
-"is sent" flag being set, with the timre recorded.
+"is sent" flag being set, with the timre recorded. A *publish date* is required.
 TODO: Not sure what the "Schedule" fields do.
 
-**Issues** contain multiple *posts*.
+Each **Issue** contains multiple *posts*, which may belong to a *category*, but must have
+a *title*, a *source URL* and a short description. They are also categorised by *type*:
+daily, weekly or monthly.
 
 **Admin Actions**
 
