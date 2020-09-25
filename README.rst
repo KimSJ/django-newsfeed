@@ -144,6 +144,16 @@ you can override these template to change the styles:
             │     ├── email_verification.txt
 
 
+**Data model**
+
+The top level is a **newsletter**. Newsletters have an associated *subject* and *issue*.
+Apart from adding a new one or editing an existing one, possible actions are to
+"send" or "delete". Sending is what triggers an email, and will result in the
+"is sent" flag being set, with the timre recorded.
+TODO: Not sure what the "Schedule" fields do.
+
+**Issues** contain multiple *posts*.
+
 **Admin Actions**
 
 These actions are available from the admin panel:
